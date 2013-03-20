@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    >
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_margin="15dip"
+    android:gravity="center"
+    android:textSize="24dip"
+    android:text="KTV测试程序"
+    />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dip">
+<TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="指令："
+    />
+<EditText
+	android:id="@+id/code_etxt"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+	/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dip">
+<TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="地址："
+    />
+<EditText
+	android:id="@+id/ip_etxt"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+	/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dip">
+<TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="端口："
+    />
+<EditText
+	android:id="@+id/port_etxt"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+	/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dip">
+<TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="结果："
+    />
+<TextView  
+	android:id="@+id/result_txt"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+</LinearLayout>
+<Button
+	android:id="@+id/send_btn"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_margin="15dip"
+    android:text="发送" 
+	/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SenmelKTV</string>
+    <string name="start_txt">Start</string>
+    <string name="main_txt">Home</string>
+    <string name="top_txt">TOP</string>
+    <string name="bottom_txt">BOTTOM</string>
+    <string name="barcode_scan_txt">扫描IP</string>
+</resources>
